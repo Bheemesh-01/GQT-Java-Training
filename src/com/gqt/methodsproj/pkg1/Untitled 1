@@ -1,0 +1,12 @@
+In Methods there are 4 types:
+--> Methods with no input and no output
+--> Methods with input and no output
+--> Methods with no input and gives an output
+--> Methods with input and gives an output
+
+Method Overloading:
+	Method Overloading refers to the process of creating multiple methods with same name, 
+	same numbers of parameters but the order of the parameters will be different.
+	In method overloading nothing is getting overloaded it is just the illusion that one method 
+	is doing multiple tasks but in reality every method is independent and it performs the 
+	tasks uniquely.

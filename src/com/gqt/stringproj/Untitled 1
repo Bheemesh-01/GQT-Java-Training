@@ -1,0 +1,59 @@
+Strings in java are used for representing the series of characters.
+Strings in java are the built-in class which is present inside the package 
+named as "java.lang"
+Strings in java do not end with the null character
+Strings in java are classified into 2 types:
+1. Mutable Strings
+		Strings that can be altered once created.
+		It is represented using StringBuffer and StringBuilder classes
+		
+2. Immutable Strings
+		Strings that cannot be altered once created.
+		It is represented using String class.
+		
+Different ways to created immutable strings:
+1. Using Literal
+	The memory for the literal based representation will be created in
+	the constant pool of the String Pool in the Heap Segment.
+	In constant pool the duplication of the data is not permitted rather 
+	the existing data will be utilized.
+	
+2. Using object
+	The memory for the object based representation will be created in
+	the non-constant pool of the String Pool in the Heap Segment
+	In non-constant pool the duplication of the data is permitted.
+	
+Different ways to compare the Strings
+1. using equals() to compare the contents of the string
+2. using == to compare the addresses
+3. using equalsIgnore() to compare the contents of the string
+4. using compareTo() to compare the contents of the string
+
+Difference Between StringBuffer and StringBuilder
+
+			StringBuffer			|			   StringBuilder
+---------------------------------------------------------------------------
+1. Used to handle Mutable Strings	|	1. Used to handle Mutable Strings
+2. Initial capacity is 16			|	2. Initial capacity is 16
+3. Introduced in java 1.0			|	3. Introduced in java 1.5
+4. Race condition does not occur	|	4. Race condition occurs
+5. It is thread safe				|	5. Not thread safe
+6. It is synchronized				|	6. It is not synchronized
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

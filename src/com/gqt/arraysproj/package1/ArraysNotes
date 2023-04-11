@@ -1,0 +1,24 @@
+com.gqt.arraysproj.package1
+
+com 	   --> company
+gqt 	   --> company name
+arraysproj --> project name
+package1   --> package name
+-------------------------------------
+Store Java marks of 25 students
+Conventional Approach:
+int a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z;
+
+Array Approach:
+--> Arrays in java are treated as objects.
+--> Arrays in java will start from 0th position
+
+Advantages:
+1. Creation of the array is simple
+	int arr[] = new int[5];
+	
+2. Storing the data inside an array is simple
+	arr[0] = 25;
+	arr[1] = 21;
+	
+3. Fetching the data from the array is simple
