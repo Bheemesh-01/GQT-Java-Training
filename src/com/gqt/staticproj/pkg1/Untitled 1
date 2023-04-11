@@ -1,0 +1,32 @@
+Static Segment contains 3 important members:
+	--> static variables
+	--> static blocks
+	--> static methods
+
+all the static members will be associated with the static keyword
+
+The features of static members is:
+--> static member will be prioritized over other members
+--> they get executed even before the object execution
+--> we need not create the object to execute the static members
+--> static members can be directly accessed using the class name
+--> memory for the static variables will be created only once
+--> the static variables will be the instance variables with static reference
+--> No matter how many objects we create static variables will be created only
+    once for every program
+--> the execution of the program does not start from main method rather it will
+	actually be executed from the static segment.
+--> main method will also execute from the static segment only
+--> the order of execution is :
+	1. static variables
+	2. static blocks
+	3. main method (static method)
+--> Once the static variables are created they will be allocated with default
+	values
+--> Inside a class we will also contains non-static members 
+	--> non-static variables
+	--> non-static blocks
+	--> non-static methods
+--> Non-static methods and Non-static blocks can access the static variables
+--> static methods and static blocks cannot access the non-static variables
+--> Non-static block will be executed when the object is created
